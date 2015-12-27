@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+<generator uri="http://jekyllrb.com" version="2.4.0">Jekyll</generator>
+<link href="/feed.xml" rel="self" type="application/atom+xml" />
+<link href="/" rel="alternate" type="text/html" />
+<updated>2015-12-26T23:05:10-02:00</updated>
+<id>/</id>
+<title>Blog Othon Alberto</title>
+<subtitle>um pouco da web e da vida, se é que dá para separar as duas coisas.</subtitle>
+<entry>
+<title>Olá, mundo!</title>
+<link href="/Ola%CC%81-,Mundo/" rel="alternate" type="text/html" title="Olá, mundo!" />
+<published>2015-12-26T00:00:00-02:00</published>
+<updated>2015-12-26T00:00:00-02:00</updated>
+<id>/Olá-,Mundo</id>
+<content type="html" xml:base="/Ola%CC%81-,Mundo/">&lt;h1&gt;{{ page.subtitle }}&lt;/h1&gt;
+
+&lt;p&gt;Eu já tentei manter um blog ativo. Até ano passado queria ser jornalista, já criei páginas para falar de política, do cotidiano, de
+esportes... Porém, falhei em todas as tentativas. Eu até começava bem, mas acaba cansando daquilo e deixava morrer.&lt;/p&gt;
+
+&lt;p&gt;O motivo do porquê isso acontecia é claro: falta de feedback. Eu escrevia, mandava para conhecidos e obtinha respostas. Do público-alvo? Nada. Eu sentia falta de perceber estar agregando algo para as pessoas que liam e, principalmente, para as pessoas que eu queria atingir.&lt;/p&gt;
+
+&lt;p&gt;Foi então que comecei a programar e, consequentemente, fazer parte das comunidades de desenvolvimento. Nelas percebi como a colaboração entre pessoas de um determinado nicho é importante para o desenvolvimento de todos. Ao buscar respostas de uma determinada dúvida, acabava caindo em algum blog de desevolvimento. Sempre tudo era bem explicado e contava com muitos comentários, onde aconteciam discussões muito legais, sempre com o objetivo de melhorar e mostrar para o outro como fazer.&lt;/p&gt;
+
+&lt;p&gt;Por exemplo, este blog é construído em Jekyll, uma ferramenta que já havia ouvido há tempos, mas que só fui me interessar ao ler sobre no &lt;a href=&quot;http://willianjusten.com.br/&quot;&gt;blog do Willian Justen&lt;/a&gt;. Tudo isso foi me despertando a vontade de contribuir para a comunidade de desenvolvimento.&lt;/p&gt;
+
+&lt;p&gt;Então por que não ter o meu?&lt;/p&gt;
+
+&lt;p&gt;Aqui, espero poder passar o pouco conhecimento que tenho para vocês, não só no campo do desenvolvimento de software, e que isso gere ricas discussões que agreguem a todos nós.&lt;/p&gt;
+
+&lt;p&gt;Até logo!&lt;/p&gt;
+</content>
+<summary>{{ page.subtitle }}Eu já tentei manter um blog ativo. Até ano passado queria ser jornalista, já criei páginas para falar de política, do cotidiano, deesportes... Porém, falhei em todas as tentativas. Eu até começava bem, mas acaba cansando daquilo e deixava morrer.</summary>
+</entry>
+</feed>

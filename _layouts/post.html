@@ -1,0 +1,13 @@
+---
+layout: posts_default
+---
+  <div class="entry">
+    {{ content }}
+  </div>
+
+  <div class="date">
+    {{ page.date | date: "%d/%m/%Y" }}
+  </div>
+
+  {% include disqus.html %}
+</article>
