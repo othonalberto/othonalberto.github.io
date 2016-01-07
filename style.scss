@@ -49,11 +49,21 @@ body {
  }
 
 .circular{
-   width: 100px;
-	height: 100px;
-	border-radius: 150px;
-	-webkit-border-radius: 150px;
-	-moz-border-radius: 150px;
+   width: 150px;
+   height: 150px;
+   border-radius: 150px;
+   -webkit-border-radius: 150px;
+   -moz-border-radius: 150px;
+ }
+
+ .left{
+     width: 20%;
+     float: left;
+ }
+
+ .right{
+     width: 80%;
+     float: left;
  }
 
 h1, h2, h3, h4, h5, h6 {
@@ -308,6 +318,13 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
+
+footer a, h6{
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

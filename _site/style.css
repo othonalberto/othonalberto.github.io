@@ -95,11 +95,21 @@ body {
 }
 
 .circular {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
+}
+
+.left {
+  width: 20%;
+  float: left;
+}
+
+.right {
+  width: 80%;
+  float: left;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -341,6 +351,12 @@ nav a {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+footer a, h6 {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
 }
 
 .highlight {
