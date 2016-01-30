@@ -89,7 +89,6 @@ Por exemplo, se fizermos o seguinte código:
 
 {% highlight py %}
 print("Meus esportes preferidos são: {0}, {1} e {2}" .format("futebol", "basquete", "corrida"))
-# O resultado será: Meus esportes preferidos são: futebol, basquete e corrida.
 {% endhighlight %}
 
 O resultado será:
