@@ -3,7 +3,7 @@ layout: post
 title: Salvando gráfico de contribuições do Github com Python e Selenium
 subtitle: Um simples tutorial
 ---
-Como alguns sabem, sou apaixonado por Python. Atualmente, minha linguagem favorita por conta de sua simplicade e poder (além de ficar LINDJA toda identada, hahahaha).
+Como alguns sabem, sou apaixonado por Python. Atualmente, minha linguagem favorita por conta de sua simplicade e poder (além de ficar LINDJA toda indentada, hahahaha).
 
 Uma das coisas mais legais da linguagem é a enorme quantidade de bibliotecas disponíveis. Cada dia que abro um grupo de discussão acabo conhecendo alguma funcionalidade interessante. Se você faz parte de algum desses grupos, provavelmente já viu o post do Alex Recker ["Using Selenium to Buy a Bus Pass"](http://alexrecker.com/using-selenium-buy-bus-pass/), em que ele mostra como automatizou a compra de passagens de ônibus com Selenium e Python. 
 
@@ -20,7 +20,7 @@ Na linha 1, importamos o "OS", que será utilizado para "acharmos" o arquivo ```
 
 Na linha 2, importamos do Selenium o Webdriver, responsável pela automatização (abertura das páginas e preenchimento dos campos).
 
-Nas próximas duas linhas importamos as bibliotecas restantes que são responsáveis pelo nosso arquivo secrets.yml, onde o username e password serão guardados, e pela data que será salva no nome do arquivo final.
+Nas próximas duas linhas, importamos as bibliotecas restantes que são responsáveis pelo nosso arquivo secrets.yml, no qual o username e password serão guardados, e pela data que será salva no nome do arquivo final.
 
 Na última linha, importamos o responsável por tirar o screenshot.
 
@@ -32,7 +32,7 @@ from datetime import date
 import pyscreenshot as ImageGrab
 {% endhighlight %}
 -----
-Neste bloco de código mostramos ao nosso programa onde está nosso arquivo secrets.yml e o carregamos.
+Neste bloco de código, mostramos ao nosso programa onde está nosso arquivo secrets.yml e o carregamos.
 
 {% highlight py %}
 cur_dir = os.path.dirname(os.path.realpath(__file__))
@@ -101,9 +101,9 @@ Deu para entender?
 
 -----
 
-Na última linha do programa salvamos a imagem.
+Na última linha do programa, salvamos a imagem.
 
-No campo bbox informamos qual área da tela queremos dar o screenshot, na ordem: X1, Y1, X2, Y2. Você pode alterá-lo de acordo com seu navegador.
+No campo bbox, informamos qual área da tela queremos dar o screenshot, na ordem: X1, Y1, X2, Y2. Você pode alterá-lo de acordo com seu navegador.
 
 No save, utilizamos o que ensinei acima para gerar o arquivo da seguinte maneira: ```"dataatual_gitshot_nomedousuario"```.
 
