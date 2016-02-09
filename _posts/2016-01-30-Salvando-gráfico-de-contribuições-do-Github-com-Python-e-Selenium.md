@@ -118,6 +118,8 @@ Este será o resultado. O nome do arquivo, no meu caso, ficou ```"2016-01-24_git
 -----
 É isso! Espero ter contribuído com o conhecimento de vocês com este post e gerado curiosidade para que experimentem o Selenium.
 
+Se gostou deste post, você pode <a target="_blank" href="http://ctt.ec/8wUuy">postá-lo no Twitter</a> para que mais pessoas possam ter acesso ao conteúdo.
+
 Quem quiser contribuir, seja com código ou sugestões, sinta-se à vontade.
 
 Abraços!
