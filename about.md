@@ -45,5 +45,9 @@ Sou apaixonado por estudar, então estou sempre procurando coisas novas e tentan
 * [Instagram](https://www.instagram.com/othonalberto/)
 * Ou, se preferir, meu e-mail é othonalberto@gmail.com
 
+# Currículo
+
+Para baixar o PDF do meu currículo, [clique aqui](https://www.dropbox.com/s/q7h2vptjhggutzn/curriculo_OTHON.pdf?dl=0).
+
 
 ##### Até mais!
