@@ -3,9 +3,9 @@ layout: about
 title: About
 permalink: /about/
 ---
-#Sobre mim
+# Sobre mim
 
-Meu nome é Othon Alberto da Silva Briganó. Recentemente, terminei o Ensino Médio e estou esperando tudo dar certo para ingressar em uma universidade.
+Meu nome é Othon Alberto da Silva Briganó. Atualmente, estudante de Ciência da Computação na UTFPR, campus Ponta Grossa.
 
 Desde pequeno, a leitura e a escrita estão presentes em minha vida. Sou apaixonado por comunicação e como ela é capaz de transformar a forma de pensar e de viver de uma sociedade. Busco fazer parte de uma organização sem fins lucrativos que faça essas transformações acontecerem, através da tecnologia e educação.
 
