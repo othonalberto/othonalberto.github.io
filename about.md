@@ -48,6 +48,7 @@ Sou apaixonado por estudar, então estou sempre procurando coisas novas e tentan
 # Currículo
 
 Para baixar o PDF do meu currículo, [clique aqui](https://www.dropbox.com/s/q7h2vptjhggutzn/curriculo_OTHON.pdf?dl=0).
+Para visualizá-lo no Github, [clique aqui](https://github.com/othonalberto/curriculo-othon)
 
 
 ##### Até mais!
