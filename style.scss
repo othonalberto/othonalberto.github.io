@@ -66,6 +66,17 @@ body {
      float: left;
  }
 
+.tags{
+    font-size: 16px;
+    text-decoration: none;
+    color:grey;
+}
+
+.tags a{
+    text-decoration: none;
+    color: inherit;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;

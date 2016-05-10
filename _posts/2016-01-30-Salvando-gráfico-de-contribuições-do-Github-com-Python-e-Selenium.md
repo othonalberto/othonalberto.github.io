@@ -2,12 +2,13 @@
 layout: post
 title: Salvando gráfico de contribuições do Github com Python e Selenium
 subtitle: Um simples tutorial
+tags: Programação
 ---
 Como alguns sabem, sou apaixonado por Python. Atualmente, minha linguagem favorita por conta de sua simplicade e poder (além de ficar LINDJA toda indentada, hahahaha).
 
-Uma das coisas mais legais da linguagem é a enorme quantidade de bibliotecas disponíveis. Cada dia que abro um grupo de discussão acabo conhecendo alguma funcionalidade interessante. Se você faz parte de algum desses grupos, provavelmente já viu o post do Alex Recker ["Using Selenium to Buy a Bus Pass"](http://alexrecker.com/using-selenium-buy-bus-pass/), em que ele mostra como automatizou a compra de passagens de ônibus com Selenium e Python. 
+Uma das coisas mais legais da linguagem é a enorme quantidade de bibliotecas disponíveis. Cada dia que abro um grupo de discussão acabo conhecendo alguma funcionalidade interessante. Se você faz parte de algum desses grupos, provavelmente já viu o post do Alex Recker ["Using Selenium to Buy a Bus Pass"](http://alexrecker.com/using-selenium-buy-bus-pass/), em que ele mostra como automatizou a compra de passagens de ônibus com Selenium e Python.
 
-Eu já havia ouvido falar do [Selenium](http://selenium-python.readthedocs.org/), mas nunca tinha experimentado na prática e o post do Alex foi o empurrão que faltava. 
+Eu já havia ouvido falar do [Selenium](http://selenium-python.readthedocs.org/), mas nunca tinha experimentado na prática e o post do Alex foi o empurrão que faltava.
 
 Obviamente, meu projetinho é bem mais simples, mas foi algo divertido de se fazer como forma de aprendizado. Batizei-o de GHSS(Github Screenshot). Como o próprio nome sugere, ele entra no seu perfil do Github e tira um screenshot do gráfico de contribuições, salvando com a data atual.
 
@@ -16,7 +17,7 @@ Abaixo, irei mostrar como fazer. Visto que há muita gente que usa Python sem se
 -----
 Primeiramente, temos que importar todas as bibliotecas necessárias.
 
-Na linha 1, importamos o "OS", que será utilizado para "acharmos" o arquivo ``` secrets.yml ```. Explicarei daqui a pouco. 
+Na linha 1, importamos o "OS", que será utilizado para "acharmos" o arquivo ``` secrets.yml ```. Explicarei daqui a pouco.
 
 Na linha 2, importamos do Selenium o Webdriver, responsável pela automatização (abertura das páginas e preenchimento dos campos).
 
@@ -61,7 +62,7 @@ driver.maximize_window()
 -----
 Aqui é onde a "mágica" acontece.
 
-Na primeira linha, a propriedade ```"find_element_by_id"``` busca o campo ```"login_field"```, onde devemos inserir o nome de usuário. 
+Na primeira linha, a propriedade ```"find_element_by_id"``` busca o campo ```"login_field"```, onde devemos inserir o nome de usuário.
 Na linha posterior, enviamos aquele username informado lá no secrets, lembra?
 
 Nas próximas duas linhas, é feito o mesmo procedimento, mas, desta vez, com a senha.
@@ -123,7 +124,3 @@ Se gostou deste post, você pode <a target="_blank" href="http://ctt.ec/8wUuy">p
 Quem quiser contribuir, seja com código ou sugestões, sinta-se à vontade.
 
 Abraços!
-
-
-
-
