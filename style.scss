@@ -23,6 +23,46 @@ body {
   color: $darkGray;
 }
 
+.wrapper {
+    position: relative; 
+    overflow: hidden;
+    width: 100%; 
+    height: auto;
+}
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateX(0);
+    transition: .3s ease all;
+}
+
+.menu {
+    height: 100%;
+    position: absolute;
+    transform: translateX(-300px);
+    width: 300px;
+    background: #74D1EA;
+    padding: 5rem;
+}
+
+.toggle-menu {
+  color: black;
+  padding:1rem;
+}
+
+.menu ul { list-style: none; }
+.menu ul li {
+  padding-top:3rem;
+}
+.menu ul li a{
+  text-decoration:none;
+}
+.wrapper.show-menu .canvas {
+    transform: translateX(300px);
+}
+
 .topo {
   background-color: #7FFFD4;
 }

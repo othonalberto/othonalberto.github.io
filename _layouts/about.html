@@ -16,12 +16,14 @@
   </head>
 
   <body>
+    <div class='wrapper'>
+    <div class='canvas'>
+    {% include menu.html %}
     <div class="full main topo">
+     <a href="#" class="toggle-menu">Menu</a>
       <div class="content">
         <div class='container'>
-          <a href="{{ site.baseurl }}/about" class="site-avatar" target="_blank"><img src="{{ site.baseurl }}/images/othon.png"  /></a>
-            <h1><a href="{{ site.baseurl }}/" target="_blank">Othon Alberto</a></h1>
-            <p>Sobre o autor deste blog</p>
+            <h1>Sobre mim</h1>
         </div>
       </div>
   </div>
@@ -29,9 +31,7 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-
-    {% include footer.html %}
+    <script src='{{ site.baseurl }}/menu.js'></script>
     {% include analytics.html %}
   </body>
 </html>

@@ -17,7 +17,11 @@
   </head>
 
   <body>
+    <div class='wrapper'>
+    <div class='canvas'>
+    {% include menu.html %}
     <div class="full main topo">
+     <a href="#" class="toggle-menu">Menu</a>
       <div class="content">
         <div class='container'>
             <h1><a href="">{{ page.title }}</a></h1>
@@ -33,8 +37,7 @@
     {% include autor.html %}
     {% include disqus.html %}
     <script id="dsq-count-scr" src="//blogothonalberto.disqus.com/count.js" async></script>
-    {% include footer.html %}
-
+    <script src='{{ site.baseurl }}/menu.js'></script>
     {% include analytics.html %}
   </body>
 </html>
