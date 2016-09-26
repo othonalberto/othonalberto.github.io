@@ -31,12 +31,6 @@ Sou apaixonado por estudar, então estou sempre procurando coisas novas e tentan
 * Github e Github Pages - onde este blog está upado;
 * MySQL e MongoDB.
 
-# Projetos
-
-* [DControle](https://www.facebook.com/projetodcontrole/?ref=ts&fref=ts), um projeto voltado a auxiliar no controle de glicemia de diabéticos, onde sou fundador, idealizador e programador PHP.
-
-* [Diga, Palmital](https://www.facebook.com/digapalmital/?fref=ts), um projeto para que os cidadãos da cidade onde cresci, Palmital, possam mostrar o que os incomoda para melhorar o munícipio.
-
 # Onde me achar
 
 * [Twitter](http://twitter.com/othonalberto)
